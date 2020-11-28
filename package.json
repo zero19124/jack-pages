@@ -1,36 +1,55 @@
 {
-  "name": "mygulp",
+  "name": "jack-pages",
   "version": "0.1.0",
   "description": "Awesome node module",
   "keywords": [
     "mygulp",
-    "zce"
+    "jack"
   ],
-  "homepage": "https://github.com/zce/mygulp#readme",
+  "homepage": "https://github.com/zero19124/jack-pages",
   "bugs": {
-    "url": "https://github.com/zce/mygulp/issues"
+    "url": "https://github.com/zero19124/jack-pages"
   },
   "license": "MIT",
   "author": "'jack' <jack@cititrans.com>",
   "files": [
-    "lib"
+    "lib",
+    "bin"
   ],
   "main": "lib/index.js",
+  "bin": "bin/jack-pages.js",
   "directories": {
     "lib": "lib",
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zce/mygulp.git"
+    "url": "git+https://github.com/zero19124/jack-pages.git"
   },
   "scripts": {
     "lint": "standard --fix",
     "test": "ava"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "browser-sync": "^2.26.13",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.6",
+    "gulp-sass": "^4.1.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^5.0.0"
+  },
   "devDependencies": {
     "ava": "^3.9.0",
+    "inquirer": "^7.3.3",
     "standard": "^14.3.4"
   },
   "engines": {
