@@ -13,10 +13,10 @@
 ## Installation
 
 ```shell
-$ npm install mygulp
+$ npm install jack-pages
 
 # or yarn
-$ yarn add mygulp
+$ yarn add jack-pages
 ```
 
 ## Usage
@@ -24,8 +24,8 @@ $ yarn add mygulp
 <!-- TODO: Introduction of API use -->
 
 ```javascript
-const mygulp = require('mygulp')
-const result = mygulp('zce')
+const mygulp = require('jack-pages')
+const result = mygulp('jack')
 // result => 'zce@zce.me'
 ```
 
